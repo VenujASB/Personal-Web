@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
+
+:root {
+  --dark-one: #333;
+  --dark-two: #7a7a7a;
+  --main-color: #784cfb;
+  --light-one: #fff;
+  --light-two: #f9fafb;
+  --light-three: #f6f7fb;
+  --blue: #0e0620;
+  --white: #fff;
+  --green: #784cfb;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #262626;
+    margin: 10px;
+}
+.mapBox{
+    border-radius: 25px;
+    border: 2px solid #262626;
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background: #fff;
+    margin: 3px;
+}
+.mapBox iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.section {
+    padding: 7rem 0;
+    overflow: hidden;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: 'Righteous', cursive;
+  }
+  
+  .title {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1rem;
+    line-height: 1;
+    font-size: 2.8rem;
+    margin-bottom: 0.6rem;
+    font-family: 'Righteous', cursive;
+  }
+  
+  .title:before {
+    content: attr(data-title);
+    display: block;
+    margin-bottom: 0.4rem;
+    color: var(--main-color);
+    font-size: 1.15rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .title:after {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: var(--main-color);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .section-header .text {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .title-sm {
+    color: var(--dark-one);
+    font-weight: 600;
+    font-size: 1.6rem;
+    font-family: 'Righteous', cursive;
+  }
+
+  button {
+    font-family: "Nunito Sans";
+  }
+
+  .btn {
+    z-index: 1;
+    overflow: hidden;
+    background: transparent;
+    position: relative;
+    padding: 8px 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1em;
+    letter-spacing: 2px;
+    transition: 0.2s ease;
+    font-weight: bold;
+    margin: 5px 0px;
+  }
+  .btn.green {
+    border: 4px solid var(--green);
+    color: var(--blue);
+  }
+  .btn.green:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background: #784cfb;
+    z-index: -1;
+    transition: 0.2s ease;
+  }
+  .btn.green:hover {
+    color: var(--white);
+    background: #784cfb;
+    transition: 0.2s ease;
+  }
+  .btn.green:hover:before {
+    width: 100%;
+  }
+
+  @media (max-width: 1280px) {
+    .mapBox{
+        border-radius: 25px;
+        position: relative;
+        width: 600px;
+        height: 600px;
+        background: #fff;
+        margin: 3px;
+    }
+    .mapBox iframe{
+        width: 100%;
+        height: 100%;
+    }
+  }
+
+  @media (max-width: 850px) {
+    .mapBox{
+        border-radius: 25px;
+        position: relative;
+        width: 400px;
+        height: 600px;
+        background: #fff;
+        margin: 3px;
+    }
+    .mapBox iframe{
+        width: 100%;
+        height: 100%;
+    }
+  }
+
+  @media (max-width: 350px) {
+    .mapBox{
+        border-radius: 25px;
+        position: relative;
+        width: 300px;
+        height: 500px;
+        background: #fff;
+        margin: 3px;
+    }
+    .mapBox iframe{
+        width: 100%;
+        height: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
