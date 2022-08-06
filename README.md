@@ -12,7 +12,7 @@ _<b><p align="center">This is the source code for my personal website.</p></b>_
 </p>
 
 <p align="center">
-<kbd><a href="https://venuja.tk/"><img src="https://telegra.ph/file/7574e627988cf001f44bf.png" width="700px" alt="landing page"></a></kbd>
+<kbd><a href="https://venuja.tk/"><img src="https://telegra.ph/file/3dfef2912904f2c6927b4.jpg" width="700px" alt="landing page"></a></kbd>
 </p>
 
 ### License
